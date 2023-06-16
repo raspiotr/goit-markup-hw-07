@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--icons-light-color);
+    color: $icons-light-color;
     transition: $transition;
     transition-property: color, background-color;
     &:hover,
