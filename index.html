@@ -522,56 +522,59 @@
             </svg>
           </div>
         </button>
-        <form name="order-service-form" autocomplete="off">
-          <div class="order-form-fields">
-            <p class="order-form-title">
+        <form name="order-form" autocomplete="off">
+          <div class="order-form__fields">
+            <p class="order-form__title">
               Zostaw swoje dane w formularzu poniżej
             </p>
-            <label class="order-form-label" for="id-name">Imię</label>
+            <label class="order-form__label" for="id-name">Imię</label>
             <input
-              class="order-form-input input-custom-name"
+              class="order-form__input order-form__input--custom-name"
               type="text"
               name="user-name"
               id="id-name"
               required
             />
-            <label class="order-form-label" for="id-phone">Telefon</label>
+            <label class="order-form__label" for="id-phone">Telefon</label>
             <input
-              class="order-form-input input-custom-phone"
+              class="order-form__input order-form__input--custom-phone"
               type="tel"
               name="user-phone"
               id="id-phone"
               required
             />
-            <label class="order-form-label" for="id-email">Email</label>
+            <label class="order-form__label" for="id-email">Email</label>
             <input
-              class="order-form-input input-custom-email"
+              class="order-form__input order-form__input--custom-email"
               type="email"
               name="user-email"
               id="id-email"
               required
             />
-            <label class="order-form-label" for="id-comment">Komentarz</label>
+            <label class="order-form__label" for="id-comment">Komentarz</label>
             <textarea
-              class="order-form-textarea"
+              class="order-form__textarea"
               id="id-comment"
               name="user-comment"
               placeholder="Wprowadź tekst"
               rows="6"
             ></textarea>
           </div>
-          <div class="order-checkbox">
+          <div class="checkbox">
             <input
-              class="custom-checkbox checkbox-hidden"
+              class="checkbox--custom checkbox--hidden"
               type="checkbox"
               name="regulations-accept"
               value="reg-accepted"
               id="id-reg-accept"
               required
             />
-            <label class="reg-accept-label" for="id-reg-accept"
-              >Oświadczam iż akceptuję <a href target="_blank">Regulamin</a> i
-              <a href target="_blank">Politykę Prywatności.</a></label
+            <label class="checkbox__label" for="id-reg-accept"
+              >Oświadczam iż akceptuję
+              <a class="checkbox__link" href target="_blank">Regulamin</a> i
+              <a class="checkbox__link" href target="_blank"
+                >Politykę Prywatności.</a
+              ></label
             >
           </div>
           <button class="order-form-button" type="submit">Wyślij</button>
