@@ -577,7 +577,7 @@ ul {
   justify-content: center;
 }*/
 
-.is-hidden {
+/*.is-hidden {
   visibility: hidden;
   opacity: 0;
   transform: scale(0);
@@ -610,9 +610,9 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
-}
+}*/
 
-.close-icon-box {
+/*.close-icon-box {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -635,7 +635,7 @@ ul {
   right: 8px;
   background-color: var(--light-text-color);
   border-width: 0;
-}
+}*/
 
 .portfolio-box figure {
   position: relative;
@@ -674,11 +674,11 @@ ul {
   display: block;
 }
 
-.newsletter-box {
+/*.newsletter-box {
   margin-left: 78px;
-}
+}*/
 
-.newsletter-title {
+/*.newsletter-title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -686,9 +686,9 @@ ul {
   letter-spacing: 0.03em;
   color: var(--light-text-color);
   margin-bottom: 20px;
-}
+}*/
 
-.news-sign-button {
+/*.news-sign-button {
   display: flex;
   gap: 24px;
   margin: 0 auto;
@@ -708,25 +708,25 @@ ul {
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color, background-color;
-}
+}*/
 
-.news-sign-button:hover,
+/*.news-sign-button:hover,
 .news-sign-button:focus {
   color: var(--primary-text-color);
   background: var(--button-background-color);
-}
+}*/
 
-.newsletter-form {
+/*.newsletter-form {
   display: flex;
   justify-content: center;
   gap: 12px;
-}
+}*/
 
-.send-icon-news-button {
+/*.send-icon-news-button {
   fill: currentColor;
-}
+}*/
 
-.newsletter-input {
+/*.newsletter-input {
   height: 50px;
   width: 358px;
   padding: 15px 16px;
@@ -737,19 +737,19 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border-color;
-}
+}*/
 
-.newsletter-input::placeholder {
+/*.newsletter-input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
+}*/
 
-.newsletter-input:focus,
+/*.newsletter-input:focus,
 .newsletter-input:hover {
   border-color: var(--active-color);
-}
+}*/
 
 .order-form-title {
   font-size: 20px;
