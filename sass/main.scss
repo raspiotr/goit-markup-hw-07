@@ -1,6 +1,5 @@
 @use "./utils/variables" as *;
 @import "./components/header";
-@import "./components/footer";
 @import "./utils/body.scss";
 @import "./components/containers";
 @import "./components/navigation";
@@ -11,3 +10,4 @@
 @import "./components/team-list";
 @import "./utils/social-icons";
 @import "./components/clients-list";
+@import "./components/footer";
