@@ -18,18 +18,18 @@
     height: 50px;
     width: 358px;
     padding: 15px 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid $white30;
     border-radius: 4px;
     outline: none;
     background-color: transparent;
-    color: rgba(255, 255, 255, 0.6);
+    color: $white60;
     transition: $transition;
     transition-property: border-color;
     &::placeholder {
       font-size: 16px;
       line-height: 1.25;
       letter-spacing: 0.03em;
-      color: rgba(255, 255, 255, 0.6);
+      color: $white60;
     }
     &:focus,
     &:hover {
